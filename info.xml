@@ -15,12 +15,16 @@
     <ver>4.7</ver>
     <ver>5.0</ver>
   </compatibility>
-  <comments></comments>
+  <comments/>
   <urls>
     <url desc="Main extension page and bare-bones documentation">https://github.com/twomice/com.joineryhq.relationshipjobtitle</url>
     <url desc="Support">https://github.com/twomice/com.joineryhq.relationshipjobtitle/issues</url>
   </urls>
   <civix>
     <namespace>CRM/Relationshipjobtitle</namespace>
+    <format>23.02.1</format>
   </civix>
+  <classloader>
+    <psr4 prefix="Civi\" path="Civi"/>
+  </classloader>
 </extension>
